@@ -31,6 +31,7 @@
   --text-color-white:#fff;
   --text-color-black:#000000;
   --btn-bg-color:#EA625C;
+  --btn-bg-hover:#C9514C;
   --bg-color-grey:#DDDDDD;
 }
 
@@ -183,6 +184,10 @@ img {
   font-size: 18px;
   line-height: 150%;
   display: inline-block;
+}
+
+.button:hover{
+  background-color: var(--btn-bg-hover)
 }
 .button:active{
   opacity: 0.5;
