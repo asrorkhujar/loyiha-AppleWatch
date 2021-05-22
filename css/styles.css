@@ -5,11 +5,11 @@
   font-weight: 400;
   src: url("../fonts/roboto-v27-latin-regular.eot");
   src:
-       url("../fonts/roboto-v27-latin-regular.eot?#iefix") format("embedded-opentype"), /* IE6-IE8 */
-       url("../fonts/roboto-v27-latin-regular.woff2") format("woff2"), /* Super Modern Browsers */
-       url("../fonts/roboto-v27-latin-regular.woff") format("woff"), /* Modern Browsers */
-       url("../fonts/roboto-v27-latin-regular.ttf") format("truetype"), /* Safari, Android, iOS */
-       url("../fonts/roboto-v27-latin-regular.svg#Roboto") format("svg"); /* Legacy iOS */
+  url("../fonts/roboto-v27-latin-regular.eot?#iefix") format("embedded-opentype"), /* IE6-IE8 */
+  url("../fonts/roboto-v27-latin-regular.woff2") format("woff2"), /* Super Modern Browsers */
+  url("../fonts/roboto-v27-latin-regular.woff") format("woff"), /* Modern Browsers */
+  url("../fonts/roboto-v27-latin-regular.ttf") format("truetype"), /* Safari, Android, iOS */
+  url("../fonts/roboto-v27-latin-regular.svg#Roboto") format("svg"); /* Legacy iOS */
 }
 
 @font-face {
@@ -18,11 +18,11 @@
   font-weight: 700;
   src: url("../fonts/roboto-v27-latin-700.eot");
   src:
-       url("../fonts/roboto-v27-latin-700.eot?#iefix") format("embedded-opentype"), /* IE6-IE8 */
-       url("../fonts/roboto-v27-latin-700.woff2") format("woff2"), /* Super Modern Browsers */
-       url("../fonts/roboto-v27-latin-700.woff") format("woff"), /* Modern Browsers */
-       url("../fonts/roboto-v27-latin-700.ttf") format("truetype"), /* Safari, Android, iOS */
-       url("../fonts/roboto-v27-latin-700.svg#Roboto") format("svg"); /* Legacy iOS */
+  url("../fonts/roboto-v27-latin-700.eot?#iefix") format("embedded-opentype"), /* IE6-IE8 */
+  url("../fonts/roboto-v27-latin-700.woff2") format("woff2"), /* Super Modern Browsers */
+  url("../fonts/roboto-v27-latin-700.woff") format("woff"), /* Modern Browsers */
+  url("../fonts/roboto-v27-latin-700.ttf") format("truetype"), /* Safari, Android, iOS */
+  url("../fonts/roboto-v27-latin-700.svg#Roboto") format("svg"); /* Legacy iOS */
 }
 
 
@@ -94,9 +94,9 @@ img {
 }
 
 .header-logo-link:active{
-cursor: pointer;
-opacity: 0.5;
-transition: all 0.4s ease;
+  cursor: pointer;
+  opacity: 0.5;
+  transition: all 0.4s ease;
 }
 
 .header-list{
@@ -108,19 +108,19 @@ transition: all 0.4s ease;
 
 .site-form{
   margin-left: 40px;
-  }
+}
 
-  .search-input{
-    padding-bottom: 6px;
-    width: 170px;
-    outline: none;
-    border: 1px solid transparent;
-    background: var(--text-color-white);
-    border-bottom: 2px solid #333333;
-    transition: all 0.4s ease;
-    font-size: 15px;
+.search-input{
+  padding-bottom: 6px;
+  width: 170px;
+  outline: none;
+  border: 1px solid transparent;
+  background: var(--text-color-white);
+  border-bottom: 2px solid #333333;
+  transition: all 0.4s ease;
+  font-size: 15px;
   line-height: 150%;
-  }
+}
 
 .header-right-section{
   display: flex;
@@ -132,12 +132,12 @@ transition: all 0.4s ease;
 }
 
 .header-items{
-font-size: 15px;
-line-height: 150%;
-text-align: center;
-color: #333333;
-border-bottom: 3px solid transparent;
-transition: all 0.4s ease;
+  font-size: 15px;
+  line-height: 150%;
+  text-align: center;
+  color: #333333;
+  border-bottom: 3px solid transparent;
+  transition: all 0.4s ease;
 }
 
 .header-items:hover{
@@ -149,17 +149,17 @@ transition: all 0.4s ease;
 }
 
 .site-intro-all-text{
-width: 490px;
-padding-top: 90px;
+  width: 490px;
+  padding-top: 90px;
 }
 
 .intro-head{
-font-weight: bold;
-font-size: 50px;
-line-height: 120%;
-color: #000000;
-margin: 0;
-margin-bottom: 30px;
+  font-weight: bold;
+  font-size: 50px;
+  line-height: 120%;
+  color: #000000;
+  margin: 0;
+  margin-bottom: 30px;
 }
 
 .intro-content{
@@ -169,18 +169,18 @@ margin-bottom: 30px;
   margin-bottom: 30px;
 }
 .button{
-width: 260px;
-padding: 12px 38px;
-background-color: var(--btn-bg-color);
-color: var(--text-color-white);
-text-transform: uppercase;
-text-decoration: none;
-cursor: pointer;
-transition: all 0.4s ease;
-font-weight: bold;
-font-size: 18px;
-line-height: 150%;
-display: inline-block;
+  width: 260px;
+  padding: 12px 38px;
+  background-color: var(--btn-bg-color);
+  color: var(--text-color-white);
+  text-transform: uppercase;
+  text-decoration: none;
+  cursor: pointer;
+  transition: all 0.4s ease;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 150%;
+  display: inline-block;
 }
 .button:active{
   opacity: 0.5;
@@ -207,7 +207,7 @@ display: inline-block;
   width: 280px;
 }
 .features-items ~ .features-items{
-margin-left: 80px;
+  margin-left: 80px;
 }
 
 .features-head{
@@ -246,11 +246,11 @@ margin-left: 80px;
   cursor: pointer;
   margin-top: 20px;
   font-weight: bold;
-font-size: 16px;
-line-height: 160%;
-display: flex;
-align-items: center;
-transition: all 0.4s ease;
+  font-size: 16px;
+  line-height: 160%;
+  display: flex;
+  align-items: center;
+  transition: all 0.4s ease;
 }
 
 .features-link:active{
@@ -275,70 +275,70 @@ transition: all 0.4s ease;
   background-size: 400px 600px;
   background-position: calc(50% + 298px) 90px;
   margin-bottom: 106px;
-  }
+}
 
 .features-second-all-text{
   width: 490px;
   padding-top: 106px;
-  }
+}
 
-  .features-head-second{
+.features-head-second{
   font-weight: bold;
   font-size: 50px;
   line-height: 120%;
   color: #000000;
   margin: 0;
   margin-bottom: 30px;
-  }
+}
 
-  .features-head-second-content{
-    padding-left: 40px;
-    border-left: 3px solid #888888;
-    margin: 0;
-    margin-bottom: 30px;
-  }
+.features-head-second-content{
+  padding-left: 40px;
+  border-left: 3px solid #888888;
+  margin: 0;
+  margin-bottom: 30px;
+}
 
-  .features-btn{
-    padding: 12px 90px;
-  }
+.features-btn{
+  padding: 12px 90px;
+}
 
 
-  /* SITE FOOTER */
+/* SITE FOOTER */
 
-  .site-footer{
-    padding-top: 240px;
-    padding-bottom: 240px;
-   background-image: url(../img/bg-runners.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    /* background-position: calc(50% + 298px) 90px; */
-  }
+.site-footer{
+  padding-top: 240px;
+  padding-bottom: 240px;
+  background-image: url(../img/bg-runners.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  /* background-position: calc(50% + 298px) 90px; */
+}
 
-  .footer-all-text{
-    width: 490px;
-margin-left: auto;
-    }
+.footer-all-text{
+  width: 490px;
+  margin-left: auto;
+}
 
-    .footer-head{
-    font-weight: bold;
-    font-size: 50px;
-    line-height: 120%;
-    color: var(--text-color-white);
-    margin: 0;
-    margin-bottom: 30px;
-    }
+.footer-head{
+  font-weight: bold;
+  font-size: 50px;
+  line-height: 120%;
+  color: var(--text-color-white);
+  margin: 0;
+  margin-bottom: 30px;
+}
 
-    .footer-content{
-      color: var(--text-color-white);
-      padding-left: 40px;
-      border-left: 3px solid var(--text-color-white);
-      margin: 0;
-      margin-bottom: 30px;
-    }
+.footer-content{
+  color: var(--text-color-white);
+  padding-left: 40px;
+  border-left: 3px solid var(--text-color-white);
+  margin: 0;
+  margin-bottom: 30px;
+}
 
-    .footer-btn{
-      width: 260px;
-      padding: 12px 46px;
-      display: inline-block;
-    }
+.footer-btn{
+  width: 260px;
+  padding: 12px 46px;
+  display: inline-block;
+}
 
