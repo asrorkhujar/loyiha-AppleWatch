@@ -134,24 +134,20 @@ img {
   margin-left: 30px;
 }
 
-.header-items{
-  font-size: 15px;
-  line-height: 150%;
-  text-align: center;
-  color: var(--link-color);
-  border-bottom: 3px solid transparent;
-  transition: all 0.4s ease;
-}
 .header-link{
+  display: block;
+  padding-top: 6px;
   text-decoration: none;
   font-size: 15px;
   line-height: 150%;
   text-align: center;
-  color: #333333;
+  border-bottom: 3px solid transparent;
+  transition: all 0.4s ease;
+  color: var(--link-color);
 }
 
-.header-items:hover{
-  border-bottom: 3px solid #333333;
+.header-link:hover{
+  border-bottom: 3px solid var(--link-color);
   cursor: pointer;
 }
 .header-items:active{
