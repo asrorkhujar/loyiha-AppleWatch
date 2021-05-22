@@ -84,6 +84,7 @@ img {
   overflow: hidden;
 }
 
+/* SITE HEADER */
 .site-header{
   display: flex;
   align-items: center;
@@ -148,6 +149,7 @@ img {
   opacity: 0.5;
 }
 
+/* SITE INTRO */
 .site-intro-all-text{
   width: 490px;
   padding-top: 90px;
@@ -194,6 +196,8 @@ img {
   padding-bottom: 183px;
   border-bottom: 2px solid #777777;
 }
+
+/* FEATURES */
 
 .features{
   padding-top: 70px;
@@ -266,6 +270,7 @@ img {
   margin-right: 10px;
 }
 
+/* SECOND FEATURES */
 
 .features-second{
   padding-top: 70px;
