@@ -33,6 +33,7 @@
   --btn-bg-color:#EA625C;
   --btn-bg-hover:#C9514C;
   --bg-color-grey:#DDDDDD;
+  --link-color:#333333;
 }
 
 html {
@@ -118,7 +119,7 @@ img {
   outline: none;
   border: 1px solid transparent;
   background: var(--text-color-white);
-  border-bottom: 2px solid #333333;
+  border-bottom: 2px solid var(--link-color);
   transition: all 0.4s ease;
   font-size: 15px;
   line-height: 150%;
@@ -137,9 +138,16 @@ img {
   font-size: 15px;
   line-height: 150%;
   text-align: center;
-  color: #333333;
+  color: var(--link-color);
   border-bottom: 3px solid transparent;
   transition: all 0.4s ease;
+}
+.header-link{
+  text-decoration: none;
+  font-size: 15px;
+  line-height: 150%;
+  text-align: center;
+  color: #333333;
 }
 
 .header-items:hover{
