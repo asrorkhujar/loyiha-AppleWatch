@@ -170,13 +170,17 @@ margin-bottom: 30px;
 }
 .button{
 width: 260px;
-padding: 12px;
+padding: 12px 38px;
 background-color: var(--btn-bg-color);
 color: var(--text-color-white);
 text-transform: uppercase;
 text-decoration: none;
 cursor: pointer;
 transition: all 0.4s ease;
+font-weight: bold;
+font-size: 18px;
+line-height: 150%;
+display: inline-block;
 }
 .button:active{
   opacity: 0.5;
@@ -186,7 +190,7 @@ transition: all 0.4s ease;
   background-image: url(../img/intro-bg.png);
   background-repeat: no-repeat;
   background-size: 587px 560px;
-  background-position: calc(50% + 500px) 0px;
+  background-position: calc(50% + 500px) 5px;
   padding-bottom: 183px;
   border-bottom: 2px solid #777777;
 }
@@ -263,4 +267,78 @@ transition: all 0.4s ease;
 }
 
 
+.features-second{
+  padding-top: 70px;
+  padding-bottom: 70px;
+  background-image: url(../img/watch-in-hand.jpg);
+  background-repeat: no-repeat;
+  background-size: 400px 600px;
+  background-position: calc(50% + 298px) 90px;
+  margin-bottom: 106px;
+  }
+
+.features-second-all-text{
+  width: 490px;
+  padding-top: 106px;
+  }
+
+  .features-head-second{
+  font-weight: bold;
+  font-size: 50px;
+  line-height: 120%;
+  color: #000000;
+  margin: 0;
+  margin-bottom: 30px;
+  }
+
+  .features-head-second-content{
+    padding-left: 40px;
+    border-left: 3px solid #888888;
+    margin: 0;
+    margin-bottom: 30px;
+  }
+
+  .features-btn{
+    padding: 12px 90px;
+  }
+
+
+  /* SITE FOOTER */
+
+  .site-footer{
+    padding-top: 240px;
+    padding-bottom: 240px;
+   background-image: url(../img/bg-runners.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* background-position: calc(50% + 298px) 90px; */
+  }
+
+  .footer-all-text{
+    width: 490px;
+margin-left: auto;
+    }
+
+    .footer-head{
+    font-weight: bold;
+    font-size: 50px;
+    line-height: 120%;
+    color: var(--text-color-white);
+    margin: 0;
+    margin-bottom: 30px;
+    }
+
+    .footer-content{
+      color: var(--text-color-white);
+      padding-left: 40px;
+      border-left: 3px solid var(--text-color-white);
+      margin: 0;
+      margin-bottom: 30px;
+    }
+
+    .footer-btn{
+      width: 260px;
+      padding: 12px 46px;
+      display: inline-block;
+    }
 
