@@ -115,7 +115,7 @@ img {
 
 .search-input{
   padding-bottom: 6px;
-  width: 155px;
+  width: 100%;
   outline: none;
   border: 1px solid transparent;
   background: var(--text-color-white);
@@ -200,10 +200,10 @@ img {
 .site-intro{
   background-image: url(../img/intro-bg.png);
   background-repeat: no-repeat;
-  background-size: 587px 560px;
-  background-position: calc(50% + 500px) 5px;
+  background-size: auto 90%;
+  background-position: calc(50% + 500px) bottom;
   padding-bottom: 183px;
-  border-bottom: 2px solid #777777;
+  border-bottom: 2px solid #e5e5e5;
 }
 
 /* FEATURES */
@@ -265,6 +265,9 @@ img {
   align-items: center;
   transition: all 0.4s ease;
 }
+.features-link:hover{
+
+}
 
 .features-link:active{
   opacity: 0.5;
@@ -273,10 +276,15 @@ img {
 .features-link::before{
   content: "";
   background-color: var(--btn-bg-color);
-  width: 60px;
-  height: 4px;
-  display: block;
+  width: 40px;
+  height: 3px;
+  display: inline-block;
   margin-right: 10px;
+  transition: all 0.4s ease;
+}
+
+.features-link:hover::before{
+width: 50px;
 }
 
 /* SECOND FEATURES */
@@ -320,12 +328,13 @@ img {
 /* SITE FOOTER */
 
 .site-footer{
-  padding-top: 240px;
+  padding-top: 200px;
   padding-bottom: 240px;
   background-image: url(../img/bg-runners.jpg);
   background-repeat: no-repeat;
   background-size: cover;
-  /* background-position: calc(50% + 298px) 90px; */
+  background-position: center center;
+  background-attachment: fixed;
 }
 
 .footer-all-text{
